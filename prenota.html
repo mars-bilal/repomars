@@ -16,9 +16,40 @@
         <a href="prenota.html">Prenotazione film disponibili</a> 
         <a href="contatti.html">Contatti info-cinema </a> 
     </nav> 
- 
-<main> 
+
+ <main> 
         <section> 
-            <h2>Modulo di prenotazione</h2> 
+            <h2>Prenotazione</h2> 
  
-            
+            <form action=""> 
+            <label for="email">Email</label> 
+                <input type="email" id="email" name="email" required> 
+ 
+                <label for="film">Scegli il film</label> 
+                <select id="film" name="film"> 
+                    <option>THE GENTLMAN</option> 
+                    <option>FLIRT</option> 
+                    <option>PRISON BREAK</option> 
+                </select> 
+ 
+                <label for="data">Data</label> 
+                <input type="date" id="data" name="datafilm" required> 
+ 
+                <label for="persone">Numero di persone</label> 
+                <input type="numerero" id="persone" name="persone" min="1" max="10">
+                
+ 
+                <button type="submit">Invia </button> 
+            </form> 
+        </section> 
+    </main> 
+ 
+    <footer> 
+        <p>CINEMA TREVIGLIO</p> 
+    </footer> 
+</main
+>
+</body> 
+</html>
+    
+
